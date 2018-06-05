@@ -1,0 +1,31 @@
+$deepbl: #5680e9;
+$babbl: #84ceeb;
+$lightbl: #5ab9ea;
+$lightpr: #c1c8e4;
+$vio: #8860d0;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: $babbl;
+}
+
+#intro {
+    font-size: 70px;
+    margin-top: 25%;
+    color: white;
+}
+
+.typed-cursor {
+	visibility: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+  }
+
+.viewW {
+    background: $deepbl;
+}
