@@ -7,27 +7,43 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
-
-
     window.sr = ScrollReveal();
 
-    sr.reveal('.first', {
+    sr.reveal('#intro', {
         duration: 1000,
-        origin: 'left',
+        origin: 'left'
+    });
+
+    sr.reveal('.introBtn', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px'
     });  
   
-    sr.reveal('.about', {
+    sr.reveal('nav', {
         duration: 1000,
         origin: 'top',
+        distance: '300px'
     });  
 
-    sr.reveal('p', {
-        duration: 1000,
+    sr.reveal('#abTitle', {
+        duration: 1500,
         origin: 'right',
-        distance: '300px'
+        distance: '500px'
+    }); 
+
+    sr.reveal('#border', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px',
+        delay: 2
+    }); 
+
+    sr.reveal('#samPic', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px',
+        delay: 2
     }); 
 
     $(function() {

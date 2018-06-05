@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/scss" href="assets/css/style.scss">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway || Poppins" rel="stylesheet">
     <title>Sam Pritchard</title>
 </head>
 
@@ -24,8 +24,10 @@
                 <div class="row">
                     <div class="col l12">
                         <h1 id="intro"></h1>
-                        <a class="waves-effect waves-light btn pulse seeWork" href="#about">
-                            <i class="material-icons right">code</i>View my work</a>
+                        <div class="introBtn">
+                            <a class="waves-effect waves-light btn pulse seeWork" href="#about">
+                                <i class="material-icons right">code</i>View my work</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -39,10 +41,10 @@
                 <a href="#" class="brand-logo right">Sam</a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="#home">HOME</a>
                     </li>
                     <li class="active">
-                        <a href="#">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li>
                         <a href="#">PORTFOLIO</a>
@@ -58,23 +60,14 @@
         <div class="container">
             <div class="row">
                 <div class="col l12">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus sed quos vitae omnis nulla,
-                        minus quia eos eum animi corrupti fugit, voluptates inventore deleniti incidunt modi repellendus
-                        cum facere!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus sed quos vitae omnis nulla,
-                        minus quia eos eum animi corrupti fugit, voluptates inventore deleniti incidunt modi repellendus
-                        cum facere!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus sed quos vitae omnis nulla,
-                        minus quia eos eum animi corrupti fugit, voluptates inventore deleniti incidunt modi repellendus
-                        cum facere!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus sed quos vitae omnis nulla,
-                        minus quia eos eum animi corrupti fugit, voluptates inventore deleniti incidunt modi repellendus
-                        cum facere!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus sed quos vitae omnis nulla,
-                        minus quia eos eum animi corrupti fugit, voluptates inventore deleniti incidunt modi repellendus
-                        cum facere!</p>
-
+                    <h1 class="center-align" id="abTitle">ABOUT</h1>
                 </div>
+                <div class="col l2 offset-l5" id="border"></div>
+            </div>
+        </div>
+        <div class="row aboutImg">
+            <div class="col m6 center-align">
+                <img id="samPic" src="assets/images/portpic.png" alt="samPic">
             </div>
         </div>
 

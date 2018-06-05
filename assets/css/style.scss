@@ -3,6 +3,7 @@ $babbl: #84ceeb;
 $lightbl: #5ab9ea;
 $lightpr: #c1c8e4;
 $vio: #8860d0;
+$accent: #fade26;
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -47,15 +48,38 @@ nav {
   }
 
 .seeWork {
-    background: #fade26;
+    background: $accent;
     &:hover {
         background: $babbl;
     }
     &:focus {
-        background: #fade26;
+        background: $accent;
     }
 }
 
+nav ul li a:focus {
+    color: $accent;
+  }
+
 .about {
     height: 100vh;
+}
+
+#abTitle {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#border {
+    border-bottom: solid 3px $babbl;
+}
+
+#samPic {
+    width: 25%;
+    border: 4px solid $babbl;
+    border-radius: 150px;
+}
+
+.aboutImg {
+    margin-top: 50px;
 }
