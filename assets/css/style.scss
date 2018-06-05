@@ -22,6 +22,7 @@ nav {
 
 #nav-mobile {
     margin-left: 5%;
+
 }
 
 .brand-logo {
@@ -50,4 +51,11 @@ nav {
     &:hover {
         background: $babbl;
     }
+    &:focus {
+        background: #fade26;
+    }
+}
+
+.about {
+    height: 100vh;
 }

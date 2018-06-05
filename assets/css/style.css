@@ -33,5 +33,10 @@ nav {
   background: #fade26; }
   .seeWork:hover {
     background: #84ceeb; }
+  .seeWork:focus {
+    background: #fade26; }
+
+.about {
+  height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
