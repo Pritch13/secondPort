@@ -5,14 +5,34 @@ $lightpr: #c1c8e4;
 $vio: #8860d0;
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
     background: $babbl;
 }
+
+nav {
+    background: #252934;
+    border-bottom: solid 4px $babbl;
+}
+
+#nav-mobile {
+    margin-left: 5%;
+}
+
+.brand-logo {
+    margin-right: 5%
+}
+
 
 #intro {
     font-size: 70px;
     margin-top: 25%;
-    color: white;
+    color: #fefefe;
 }
 
 .typed-cursor {
@@ -23,9 +43,11 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-
   }
 
-.viewW {
-    background: $deepbl;
+.seeWork {
+    background: #fade26;
+    &:hover {
+        background: $babbl;
+    }
 }

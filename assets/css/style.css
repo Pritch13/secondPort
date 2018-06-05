@@ -1,11 +1,25 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif; }
+
+.landing {
+  height: 100vh;
+  width: 100%;
   background: #84ceeb; }
+
+nav {
+  background: #252934;
+  border-bottom: solid 4px #84ceeb; }
+
+#nav-mobile {
+  margin-left: 5%; }
+
+.brand-logo {
+  margin-right: 5%; }
 
 #intro {
   font-size: 70px;
   margin-top: 25%;
-  color: white; }
+  color: #fefefe; }
 
 .typed-cursor {
   visibility: hidden; }
@@ -15,7 +29,9 @@ body {
   width: 100%;
   height: 100%; }
 
-.viewW {
-  background: #5680e9; }
+.seeWork {
+  background: #fade26; }
+  .seeWork:hover {
+    background: #84ceeb; }
 
 /*# sourceMappingURL=style.css.map */
