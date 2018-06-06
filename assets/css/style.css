@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .landing {
   height: 100vh;
@@ -44,7 +44,7 @@ nav ul li a:focus {
 
 #abTitle {
   font-size: 50px;
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 #border {
   border-bottom: solid 3px #84ceeb; }
@@ -56,5 +56,20 @@ nav ul li a:focus {
 
 .aboutImg {
   margin-top: 50px; }
+
+#aboutPara {
+  font-family: "Poppins", sans-serif;
+  line-height: 24pt;
+  font-size: 12pt;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 45px; }
+
+#portfolio {
+  background-color: #f5f5f5;
+  height: 100vh; }
+
+#borderPort {
+  border-bottom: solid 3px #84ceeb; }
 
 /*# sourceMappingURL=style.css.map */

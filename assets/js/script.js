@@ -46,6 +46,20 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         delay: 2
     }); 
 
+    sr.reveal('#aboutPara', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px',
+        delay: 2
+    }); 
+
+    sr.reveal('#borderPort', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px',
+        delay: 2
+    }); 
+
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -60,6 +74,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
           }
         });
       });
+
 
   
 
