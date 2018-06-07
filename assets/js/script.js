@@ -1,5 +1,3 @@
-
-
 var typed = new Typed('#intro', {
     strings: ["Hello, I'm Sam Pritchard."],
     typeSpeed: 40,
@@ -8,10 +6,6 @@ var typed = new Typed('#intro', {
 particlesJS.load('particles-js', 'assets/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
-
-var stickyBar = $('nav').offset().top;
-
-
 
     window.sr = ScrollReveal();
 
@@ -110,12 +104,36 @@ var stickyBar = $('nav').offset().top;
         });
       });
 
-      $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        var stickyNavTop = $('nav').offset().top;
-    
-        if (scroll > stickyNavTop) {
 
-            $("nav").addClass("affix");
-         } 
-    }); 
+
+            // $(window).scroll(function() {    
+            //     var scroll = $(window).scrollTop();
+            //     var stickyNavTop = $('nav').offset().top;
+            //     var sticky = $('.sticky').offset().top;
+            
+            //     if (scroll > stickyNavTop) {
+
+            //         $("nav").addClass("affix");
+            //     }  else if (scroll < sticky) {
+            //         $("nav").removeClass("affix");
+            //     }
+            // }); 
+
+
+            function moveScroller() {
+                var move = function() {
+                    var st = $(window).scrollTop();
+                    var ot = $("#scroller-anchor").offset().top;
+                    var s = $("nav");
+                    if(st > ot) {
+                        $("nav").addClass("affix");
+                    } else {
+                        if(st <= ot) {
+                            $("nav").removeClass("affix");
+                        }
+                    }
+                };
+                $(window).scroll(move);
+                move();
+            }
+            moveScroller();

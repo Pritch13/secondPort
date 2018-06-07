@@ -7,9 +7,15 @@ $accent: #fade26;
 $titles: 'Raleway', sans-serif;
 $text: 'Poppins', sans-serif;
 
-body {
-    font-family: $titles
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $titles;
+    width: 100%;
 }
 
 .landing {
@@ -26,9 +32,6 @@ nav {
 .affix {
     position:fixed;
     top: 0;
-    bottom: inherit;
-    left: 0;
-    position: fixed;
     z-index: 2;
 }
 
@@ -133,5 +136,10 @@ nav ul li a:focus {
 
 #borderRPort {
     border-bottom: solid 3px $babbl;
+}
+
+.topCol {
+    position: fixed;
+    top: 1;
 }
 

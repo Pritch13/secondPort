@@ -1,5 +1,10 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  width: 100%; }
 
 .landing {
   height: 100vh;
@@ -13,9 +18,6 @@ nav {
 .affix {
   position: fixed;
   top: 0;
-  bottom: inherit;
-  left: 0;
-  position: fixed;
   z-index: 2; }
 
 #nav-mobile {
@@ -97,5 +99,9 @@ nav ul li a:focus {
 
 #borderRPort {
   border-bottom: solid 3px #84ceeb; }
+
+.topCol {
+  position: fixed;
+  top: 1; }
 
 /*# sourceMappingURL=style.css.map */
