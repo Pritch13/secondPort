@@ -1,6 +1,5 @@
 html, body {
-  max-width: 100%;
-  overflow-x: hidden; }
+  max-width: 100%; }
 
 body {
   font-family: "Raleway", sans-serif;
@@ -13,10 +12,15 @@ body {
 
 nav {
   background: #252934;
-  border-bottom: solid 4px #84ceeb; }
+  border-bottom: solid 4px #84ceeb;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  /* required */
+  z-index: 2; }
 
 .affix {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 2; }
 

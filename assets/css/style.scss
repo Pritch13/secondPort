@@ -10,7 +10,7 @@ $text: 'Poppins', sans-serif;
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 body {
@@ -27,10 +27,15 @@ body {
 nav {
     background: #252934;
     border-bottom: solid 4px $babbl;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+    z-index: 2;
 }
 
+
 .affix {
-    position:fixed;
+    position: sticky;
     top: 0;
     z-index: 2;
 }

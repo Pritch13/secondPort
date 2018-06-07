@@ -79,15 +79,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         distance: '300px'
     });  
 
-    $('.seeWork').on('click', function(){
-        $('nav').addClass('affix');
-        sr.reveal('nav', {
-            duration: 1000,
-            origin: 'top',
-            distance: '300px'
-        });  
-
-    })
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
@@ -103,37 +94,3 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
           }
         });
       });
-
-
-
-            // $(window).scroll(function() {    
-            //     var scroll = $(window).scrollTop();
-            //     var stickyNavTop = $('nav').offset().top;
-            //     var sticky = $('.sticky').offset().top;
-            
-            //     if (scroll > stickyNavTop) {
-
-            //         $("nav").addClass("affix");
-            //     }  else if (scroll < sticky) {
-            //         $("nav").removeClass("affix");
-            //     }
-            // }); 
-
-
-            function moveScroller() {
-                var move = function() {
-                    var st = $(window).scrollTop();
-                    var ot = $("#scroller-anchor").offset().top;
-                    var s = $("nav");
-                    if(st > ot) {
-                        $("nav").addClass("affix");
-                    } else {
-                        if(st <= ot) {
-                            $("nav").removeClass("affix");
-                        }
-                    }
-                };
-                $(window).scroll(move);
-                move();
-            }
-            moveScroller();
