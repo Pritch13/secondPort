@@ -23,6 +23,15 @@ nav {
     border-bottom: solid 4px $babbl;
 }
 
+.affix {
+    position:fixed;
+    top: 0;
+    bottom: inherit;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+}
+
 #nav-mobile {
     margin-left: 5%;
 
@@ -70,6 +79,13 @@ nav ul li a:focus {
 #abTitle {
     font-size: 50px;
     font-family: $text;
+    margin-top: 119px;
+}
+
+#portTitle {
+    margin-top: 119px;
+    font-size: 50px;
+    font-family: $text;
 }
 
 #border {
@@ -100,6 +116,22 @@ nav ul li a:focus {
     height: 100vh;
 }
 
+#contact {
+    background-color: #fefefe;
+    height: 100vh;
+}
+
+#contactTitle {
+    margin-top: 119px;
+    font-size: 50px;
+    font-family: $text;
+}
+
 #borderPort {
     border-bottom: solid 3px $babbl;
 }
+
+#borderRPort {
+    border-bottom: solid 3px $babbl;
+}
+

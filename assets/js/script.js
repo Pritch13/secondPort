@@ -1,3 +1,5 @@
+
+
 var typed = new Typed('#intro', {
     strings: ["Hello, I'm Sam Pritchard."],
     typeSpeed: 40,
@@ -6,6 +8,10 @@ var typed = new Typed('#intro', {
 particlesJS.load('particles-js', 'assets/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
+
+var stickyBar = $('nav').offset().top;
+
+
 
     window.sr = ScrollReveal();
 
@@ -20,15 +26,21 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         distance: '500px'
     });  
   
-    sr.reveal('nav', {
-        duration: 1000,
-        origin: 'top',
-        distance: '300px'
-    });  
-
     sr.reveal('#abTitle', {
         duration: 1500,
         origin: 'right',
+        distance: '500px'
+    }); 
+
+    sr.reveal('#portTitle', {
+        duration: 1500,
+        origin: 'right',
+        distance: '500px'
+    }); 
+
+    sr.reveal('#contactTitle', {
+        duration: 1500,
+        origin: 'left',
         distance: '500px'
     }); 
 
@@ -39,10 +51,17 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         delay: 2
     }); 
 
+    sr.reveal('#borderRPort', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px',
+        delay: 2
+    }); 
+
     sr.reveal('#samPic', {
         duration: 2000,
         origin: 'left',
-        distance: '500px',
+        distance: '300px',
         delay: 2
     }); 
 
@@ -60,6 +79,22 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         delay: 2
     }); 
 
+    sr.reveal('nav', {
+        duration: 1000,
+        origin: 'top',
+        distance: '300px'
+    });  
+
+    $('.seeWork').on('click', function(){
+        $('nav').addClass('affix');
+        sr.reveal('nav', {
+            duration: 1000,
+            origin: 'top',
+            distance: '300px'
+        });  
+
+    })
+
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -75,9 +110,12 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         });
       });
 
+      $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        var stickyNavTop = $('nav').offset().top;
+    
+        if (scroll > stickyNavTop) {
 
-  
-
-
-
-
+            $("nav").addClass("affix");
+         } 
+    }); 
