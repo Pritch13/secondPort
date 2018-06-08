@@ -98,8 +98,8 @@ nav ul li a:focus {
     color: white; }
   #contact #email {
     color: white; }
-  #contact #message {
-    color: #fefefe; }
+  #contact #textarea2 {
+    color: white; }
 
 #contactTitle {
   margin-top: 117px;
