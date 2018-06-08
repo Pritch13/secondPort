@@ -2,92 +2,259 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" type="text/scss" href="assets/css/style.scss">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway || Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway" rel="stylesheet">
     <title>Sam Pritchard</title>
-</head>
-
-<body>
+    <body>
 
 
-    <div id="particles-js"></div>
-    <section class="landing" id="home">
-        <div class="container first">
-            <div class="header">
-                <div class="row">
-                    <div class="col l12">
-                        <h1 id="intro"></h1>
-                        <div class="introBtn">
-                            <a class="waves-effect waves-light btn pulse seeWork" href="#about">
-                                <i class="material-icons right">code</i>View my work</a>
+        <div id="particles-js"></div>
+        <section class="landing" id="home">
+            <div class="container first">
+                <div class="header">
+                    <div class="row">
+                        <div class="col l12">
+                            <h1 id="intro"></h1>
+                            <div class="introBtn">
+                                <a class="waves-effect waves-light btn pulse seeWork" href="#about">
+                                    <i class="material-icons right">code</i>View my work</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <nav>
-                <a href="#" class="brand-logo right">Sam</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li>
-                        <a href="#home" class="scroll">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#about" class="scroll">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="scroll">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="scroll">CONTACT</a>
-                    </li>
-                </ul>
+        <nav>
+            <a href="#" class="brand-logo right">Sam</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li>
+                    <a href="#home" class="scroll">HOME</a>
+                </li>
+                <li>
+                    <a href="#about" class="scroll">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="scroll">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#contact" class="scroll">CONTACT</a>
+                </li>
+            </ul>
         </nav>
 
-    <section class="about" id="about">
-        <div class="container sticky">
-            <div class="row">
-                <div class="col l12">
-                    <h1 class="center-align" id="abTitle">ABOUT</h1>
+        <section class="about" id="about">
+            <div class="container sticky">
+                <div class="row">
+                    <div class="col l12">
+                        <h1 class="center-align" id="abTitle">ABOUT</h1>
+                    </div>
+                    <div class="col l2 offset-l5" id="border"></div>
                 </div>
-                <div class="col l2 offset-l5" id="border"></div>
             </div>
-        </div>
-        <div class="row aboutImg">
-            <div class="col m6 center-align">
-                <img id="samPic" src="assets/images/portpic.png" alt="samPic">
-                <p id="aboutPara" class="center-align">I’m a Full Stack web developer focused on producing professional and usable content that is both functional
-                    and visually engaging. Graduating a Full-Stack web development coding boot camp at Denver University
-                    has planted a passion for programming that never stops exciting or inspiring me.</p>
-            </div>
-            <div class="col m6">
-
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col l12">
-                    <h1 class="center-align" id="portTitle">PORTFOLIO</h1>
+            <div class="row aboutImg">
+                <div class="col m6 center-align">
+                    <img id="samPic" src="assets/images/portpic.png" alt="samPic">
+                    <p id="aboutPara" class="center-align">I’m a Full Stack web developer focused on producing professional and usable content that is both functional
+                        and visually engaging. Graduating a Full-Stack web development coding boot camp at Denver University
+                        has planted a passion for programming that never stops exciting or inspiring me.</p>
                 </div>
-                <div class="col l2 offset-l5" id="borderPort"></div>
-            </div>
-        </div>
-    </section>
+                <div class="col m6">
 
-    <section id="contact">
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12">
+                        <h1 class="center-align" id="portTitle">PORTFOLIO</h1>
+                    </div>
+                    <div class="col l2 offset-l5" id="borderRPort"></div>
+                </div>
+                <div class="row">
+                    <div class="col m3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/portfoliopics/friendfinder.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                                <p>
+                                    <a href="#">This is a link</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/portfoliopics/supermario.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                                <p>
+                                    <a href="#">This is a link</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/portfoliopics/burgers.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                                <p>
+                                    <a href="#">This is a link</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/portfoliopics/traintable.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">more_vert</i>
+                                </span>
+                                <p>
+                                    <a href="#">This is a link</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col m3">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/portfoliopics/drknow.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">more_vert</i>
+                                    </span>
+                                    <p>
+                                        <a href="#">This is a link</a>
+                                    </p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m3">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/portfoliopics/gif.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">more_vert</i>
+                                    </span>
+                                    <p>
+                                        <a href="#">This is a link</a>
+                                    </p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m3">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/portfoliopics/hangman.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">more_vert</i>
+                                    </span>
+                                    <p>
+                                        <a href="#">This is a link</a>
+                                    </p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col m3">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/portfoliopics/quiz.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">more_vert</i>
+                                    </span>
+                                    <p>
+                                        <a href="#">This is a link</a>
+                                    </p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Card Title
+                                        <i class="material-icons right">close</i>
+                                    </span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col l12">
@@ -104,16 +271,16 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script type="text/JavaScript" src="assets/js/particles.js"></script>
-    <script type="text/JavaScript" src="assets/js/jquery.easypiechart.min.js"></script>
-    <script type="text/JavaScript" src="assets/js/app.js"></script>
-    <script type="text/JavaScript" src="assets/js/lib/typed.js"></script>
-    <script type="text/JavaScript" src="assets/js/script.js"></script>
-</body>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script type="text/JavaScript" src="assets/js/particles.js"></script>
+        <script type="text/JavaScript" src="assets/js/jquery.easypiechart.min.js"></script>
+        <script type="text/JavaScript" src="assets/js/app.js"></script>
+        <script type="text/JavaScript" src="assets/js/lib/typed.js"></script>
+        <script type="text/JavaScript" src="assets/js/script.js"></script>
+    </body>
 
 </html>
