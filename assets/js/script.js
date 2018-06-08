@@ -22,13 +22,13 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   
     sr.reveal('#abTitle', {
         duration: 1500,
-        origin: 'right',
+        origin: 'left',
         distance: '500px'
     }); 
 
     sr.reveal('#portTitle', {
         duration: 1500,
-        origin: 'right',
+        origin: 'left',
         distance: '500px'
     }); 
 
@@ -68,7 +68,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
     sr.reveal('#borderPort', {
         duration: 2000,
-        origin: 'left',
+        origin: 'right',
         distance: '500px',
         delay: 2
     }); 
