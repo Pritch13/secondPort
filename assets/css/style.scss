@@ -77,12 +77,7 @@ nav ul li a:focus {
   }
 
 
-#abTitle {
-    font-size: 50px;
-    font-family: $titles;
-    margin-top: 119px;
-    font-weight: bold;
-}
+
 
 #portTitle {
     margin-top: 119px;
@@ -105,14 +100,25 @@ nav ul li a:focus {
     margin-top: 50px;
 }
 
-#aboutPara {
-    font-family: $text;
-    line-height: 24pt;
-    font-size: 12pt;
-    width: 65%;
-    margin: 0 auto;
-    margin-top: 45px;
+#about {
+    height: 100vh;
+    #aboutPara {
+        font-family: $text;
+        line-height: 24pt;
+        font-size: 12pt;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    #abTitle {
+        font-size: 50px;
+        font-family: $titles;
+        margin-top: 119px;
+        font-weight: bold;
+    }
 }
+
+
 
 #portfolio {
     background: #f5f5f5;
@@ -120,6 +126,22 @@ nav ul li a:focus {
 
 #contact {
     height: 100vh;
+    background: #252934;
+    #contactTitle {
+        color: white;
+    }
+    #formsubmit {
+        border: white solid 2px;
+    }
+    #name {
+        color: white;
+    }
+    #email {
+        color: white;
+    }
+    #message {
+        color: #fefefe
+    }
 }
 
 #contactTitle {

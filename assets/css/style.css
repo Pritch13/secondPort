@@ -52,12 +52,6 @@ nav {
 nav ul li a:focus {
   color: #fade26; }
 
-#abTitle {
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
-  margin-top: 119px;
-  font-weight: bold; }
-
 #portTitle {
   margin-top: 119px;
   font-size: 50px;
@@ -75,19 +69,37 @@ nav ul li a:focus {
 .aboutImg {
   margin-top: 50px; }
 
-#aboutPara {
-  font-family: "Poppins", sans-serif;
-  line-height: 24pt;
-  font-size: 12pt;
-  width: 65%;
-  margin: 0 auto;
-  margin-top: 45px; }
+#about {
+  height: 100vh; }
+  #about #aboutPara {
+    font-family: "Poppins", sans-serif;
+    line-height: 24pt;
+    font-size: 12pt;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 45px; }
+  #about #abTitle {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 119px;
+    font-weight: bold; }
 
 #portfolio {
   background: #f5f5f5; }
 
 #contact {
-  height: 100vh; }
+  height: 100vh;
+  background: #252934; }
+  #contact #contactTitle {
+    color: white; }
+  #contact #formsubmit {
+    border: white solid 2px; }
+  #contact #name {
+    color: white; }
+  #contact #email {
+    color: white; }
+  #contact #message {
+    color: #fefefe; }
 
 #contactTitle {
   margin-top: 117px;
