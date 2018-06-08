@@ -30,6 +30,7 @@ nav {
     position: -webkit-sticky;
     top: 0; /* required */
     z-index: 2;
+    font-family: $text;
 }
 
 #nav-mobile {
@@ -47,6 +48,7 @@ nav {
     font-size: 70px;
     margin-top: 25%;
     color: #fefefe;
+    font-weight: bold;
 }
 
 .typed-cursor {
@@ -60,6 +62,7 @@ nav {
   }
 
 .seeWork {
+    font-family: $text;
     background: $accent;
     &:hover {
         background: $babbl;
@@ -73,20 +76,19 @@ nav ul li a:focus {
     color: $accent;
   }
 
-.about {
-    height: 100vh;
-}
 
 #abTitle {
     font-size: 50px;
-    font-family: $text;
+    font-family: $titles;
     margin-top: 119px;
+    font-weight: bold;
 }
 
 #portTitle {
     margin-top: 119px;
     font-size: 50px;
-    font-family: $text;
+    font-family: $titles;
+    font-weight: bold;
 }
 
 #border {
@@ -113,7 +115,7 @@ nav ul li a:focus {
 }
 
 #portfolio {
-    height: 100vh;
+    background: #f5f5f5;
 }
 
 #contact {
@@ -123,7 +125,8 @@ nav ul li a:focus {
 #contactTitle {
     margin-top: 117px;
     font-size: 50px;
-    font-family: $text;
+    font-family: $titles;
+    font-weight: bold;
 }
 
 #borderPort {
@@ -134,8 +137,4 @@ nav ul li a:focus {
     border-bottom: solid 3px $babbl;
 }
 
-.topCol {
-    position: fixed;
-    top: 1;
-}
 

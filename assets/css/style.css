@@ -17,7 +17,8 @@ nav {
   position: -webkit-sticky;
   top: 0;
   /* required */
-  z-index: 2; }
+  z-index: 2;
+  font-family: "Poppins", sans-serif; }
 
 #nav-mobile {
   margin-left: 5%; }
@@ -29,7 +30,8 @@ nav {
   font-family: "Raleway", sans-serif;
   font-size: 70px;
   margin-top: 25%;
-  color: #fefefe; }
+  color: #fefefe;
+  font-weight: bold; }
 
 .typed-cursor {
   visibility: hidden; }
@@ -40,6 +42,7 @@ nav {
   height: 100%; }
 
 .seeWork {
+  font-family: "Poppins", sans-serif;
   background: #fade26; }
   .seeWork:hover {
     background: #84ceeb; }
@@ -49,18 +52,17 @@ nav {
 nav ul li a:focus {
   color: #fade26; }
 
-.about {
-  height: 100vh; }
-
 #abTitle {
   font-size: 50px;
-  font-family: "Poppins", sans-serif;
-  margin-top: 119px; }
+  font-family: "Raleway", sans-serif;
+  margin-top: 119px;
+  font-weight: bold; }
 
 #portTitle {
   margin-top: 119px;
   font-size: 50px;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
 
 #border {
   border-bottom: solid 3px #84ceeb; }
@@ -82,7 +84,7 @@ nav ul li a:focus {
   margin-top: 45px; }
 
 #portfolio {
-  height: 100vh; }
+  background: #f5f5f5; }
 
 #contact {
   height: 100vh; }
@@ -90,16 +92,13 @@ nav ul li a:focus {
 #contactTitle {
   margin-top: 117px;
   font-size: 50px;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
 
 #borderPort {
   border-bottom: solid 3px #84ceeb; }
 
 #borderRPort {
   border-bottom: solid 3px #84ceeb; }
-
-.topCol {
-  position: fixed;
-  top: 1; }
 
 /*# sourceMappingURL=style.css.map */

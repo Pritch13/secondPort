@@ -12,6 +12,38 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
     window.sr = ScrollReveal();
 
+    sr.reveal('.leftoutscroll', {
+        duration: 1000,
+        delay: 800,
+        origin: 'bottom',
+        distance: '200px',
+        rotate: { x: 0, y: 0, z: 30 },
+    });
+
+    sr.reveal('.leftinscroll', {
+        duration: 1000,
+        delay: 600,
+        origin: 'bottom',
+        distance: '200px',
+        rotate: { x: 0, y: 0, z: 30 },
+    });
+
+    sr.reveal('.rightoutscroll', {
+        duration: 1000,
+        delay: 800,
+        origin: 'bottom',
+        distance: '200px',
+        rotate: { x: 0, y: 0, z: -30 },
+    });
+
+    sr.reveal('.rightinscroll', {
+        duration: 1000,
+        delay: 600,
+        origin: 'bottom',
+        distance: '200px',
+        rotate: { x: 0, y: 0, z: -30 },
+    });
+
     sr.reveal('#intro', {
         duration: 1000,
         origin: 'left'
