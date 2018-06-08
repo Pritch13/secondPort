@@ -10,7 +10,6 @@ $text: 'Poppins', sans-serif;
 
 html, body {
     max-width: 100%;
-    // overflow-x: hidden;
 }
 
 body {
@@ -34,11 +33,6 @@ nav {
 }
 
 
-.affix {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
 
 #nav-mobile {
     margin-left: 5%;
