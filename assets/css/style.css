@@ -89,7 +89,7 @@ nav ul li a:focus {
   background: #f5f5f5; }
 
 #contact {
-  height: 100vh;
+  min-height: 100vh;
   background: #252934;
   overflow-y: hidden; }
   #contact #contactTitle {
