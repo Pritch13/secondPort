@@ -70,7 +70,7 @@ nav ul li a:focus {
   margin-top: 50px; }
 
 #about {
-  height: 100vh; }
+  min-height: 100vh; }
   #about #aboutPara {
     font-family: "Poppins", sans-serif;
     line-height: 24pt;
@@ -89,7 +89,8 @@ nav ul li a:focus {
 
 #contact {
   height: 100vh;
-  background: #252934; }
+  background: #252934;
+  overflow-y: hidden; }
   #contact #contactTitle {
     color: white; }
   #contact #formsubmit {
@@ -136,5 +137,8 @@ nav ul li a:focus {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
     transform: rotateZ(360deg); }
+
+#copyright {
+  color: #84ceeb; }
 
 /*# sourceMappingURL=style.css.map */

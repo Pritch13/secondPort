@@ -130,11 +130,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         });
       });
 
-//       $(".skills").hover(function(){
-//     $(this).animate({ transform: rotateZ(720deg) });
-// }, function() {
-//     $(this).animate({ transform: rotateZ(720deg) });
-// });
 
 
 
