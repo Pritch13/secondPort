@@ -3,7 +3,8 @@ html, body {
 
 body {
   font-family: "Raleway", sans-serif;
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden; }
 
 .landing {
   height: 100vh;

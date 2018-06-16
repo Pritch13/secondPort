@@ -9,34 +9,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
     window.sr = ScrollReveal();
 
-    sr.reveal('.leftoutscroll', {
-        duration: 1000,
-        delay: 800,
-        origin: 'bottom',
-        distance: '200px'
-    });
-
-    sr.reveal('.leftinscroll', {
-        duration: 1000,
-        delay: 600,
-        origin: 'bottom',
-        distance: '200px'
-    });
-
-    sr.reveal('.rightoutscroll', {
-        duration: 1000,
-        delay: 800,
-        origin: 'bottom',
-        distance: '200px'
-    });
-
-    sr.reveal('.rightinscroll', {
-        duration: 1000,
-        delay: 600,
-        origin: 'bottom',
-        distance: '200px'
-    });
-
     sr.reveal('#intro', {
         duration: 1000,
         origin: 'left'
@@ -107,13 +79,43 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         distance: '300px'
     });  
 
-    sr.reveal('.skillSet', {
+    // sr.reveal('.skillSet', {
+    //     duration: 2000,
+    //     origin: 'right',
+    //     distance: '500px',
+    //     delay: 2
+    // }); 
+
+    sr.reveal('.cardsAn', {
         duration: 2000,
-        origin: 'right',
+        origin: 'bottom',
         distance: '500px',
         delay: 2
     }); 
 
+    sr.reveal('.row1', {
+        duration: 1000,
+        origin: 'left',
+        distance: '200px'
+    }); 
+
+    sr.reveal('.row3', {
+        duration: 1000,
+        origin: 'left',
+        distance: '200px'
+    }); 
+
+    sr.reveal('.row2', {
+        duration: 1000,
+        origin: 'right',
+        distance: '200px'
+    }); 
+
+    sr.reveal('.row4', {
+        duration: 1000,
+        origin: 'right',
+        distance: '200px'
+    }); 
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
