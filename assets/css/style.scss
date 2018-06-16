@@ -4,6 +4,7 @@ $lightbl: #5ab9ea;
 $lightpr: #c1c8e4;
 $vio: #8860d0;
 $accent: #fade26;
+$dark: #252934;
 $titles: 'Raleway', sans-serif;
 $text: 'Poppins', sans-serif;
 
@@ -24,7 +25,7 @@ body {
 }
 
 nav {
-    background: #252934;
+    background: $dark;
     border-bottom: solid 4px $babbl;
     position: sticky;
     position: -webkit-sticky;
@@ -105,7 +106,7 @@ nav ul li a:focus {
     #aboutPara {
         font-family: $text;
         line-height: 24pt;
-        font-size: 12pt;
+        font-size: 14pt;
         width: 65%;
         margin: 0 auto;
         margin-top: 45px;
@@ -157,6 +158,35 @@ nav ul li a:focus {
 
 #borderRPort {
     border-bottom: solid 3px $babbl;
+}
+
+.social {
+    color: white;
+    margin: 22px;
+    margin-top: 50px;
+    &:hover {
+        color: $babbl;
+    }
+}
+
+.skillSet {
+    margin-top: 3%;
+}
+
+.skills {
+    display: inline-block;
+    color: $dark;
+    font-size: 80px;
+    margin-right: 40px;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+    &:hover {
+        color: $babbl;
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
 }
 
 

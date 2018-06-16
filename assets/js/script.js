@@ -13,32 +13,28 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         duration: 1000,
         delay: 800,
         origin: 'bottom',
-        distance: '200px',
-        rotate: { x: 0, y: 0, z: 30 },
+        distance: '200px'
     });
 
     sr.reveal('.leftinscroll', {
         duration: 1000,
         delay: 600,
         origin: 'bottom',
-        distance: '200px',
-        rotate: { x: 0, y: 0, z: 30 },
+        distance: '200px'
     });
 
     sr.reveal('.rightoutscroll', {
         duration: 1000,
         delay: 800,
         origin: 'bottom',
-        distance: '200px',
-        rotate: { x: 0, y: 0, z: -30 },
+        distance: '200px'
     });
 
     sr.reveal('.rightinscroll', {
         duration: 1000,
         delay: 600,
         origin: 'bottom',
-        distance: '200px',
-        rotate: { x: 0, y: 0, z: -30 },
+        distance: '200px'
     });
 
     sr.reveal('#intro', {
@@ -111,6 +107,13 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
         distance: '300px'
     });  
 
+    sr.reveal('.skillSet', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px',
+        delay: 2
+    }); 
+
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
@@ -126,6 +129,12 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
           }
         });
       });
+
+//       $(".skills").hover(function(){
+//     $(this).animate({ transform: rotateZ(720deg) });
+// }, function() {
+//     $(this).animate({ transform: rotateZ(720deg) });
+// });
 
 
 

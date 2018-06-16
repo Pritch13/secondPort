@@ -74,7 +74,7 @@ nav ul li a:focus {
   #about #aboutPara {
     font-family: "Poppins", sans-serif;
     line-height: 24pt;
-    font-size: 12pt;
+    font-size: 14pt;
     width: 65%;
     margin: 0 auto;
     margin-top: 45px; }
@@ -112,5 +112,29 @@ nav ul li a:focus {
 
 #borderRPort {
   border-bottom: solid 3px #84ceeb; }
+
+.social {
+  color: white;
+  margin: 22px;
+  margin-top: 50px; }
+  .social:hover {
+    color: #84ceeb; }
+
+.skillSet {
+  margin-top: 3%; }
+
+.skills {
+  display: inline-block;
+  color: #252934;
+  font-size: 80px;
+  margin-right: 40px;
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out; }
+  .skills:hover {
+    color: #84ceeb;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); }
 
 /*# sourceMappingURL=style.css.map */
