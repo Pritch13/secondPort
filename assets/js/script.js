@@ -104,6 +104,12 @@ if (window.innerWidth > 720) {
         delay: 2
     });
 
+    sr.reveal('#seemore', {
+        duration: 2000,
+        origin: 'left',
+        distance: '200px'
+    });
+
     sr.reveal('.row1', {
         duration: 1000,
         origin: 'left',
