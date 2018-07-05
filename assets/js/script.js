@@ -13,6 +13,12 @@ $(function () {
     });
 });
 
+$('#formsubmit').on('click', function() {
+    if ($('#name').val()== "" || $('#email').val() === "" || $('#textarea2')== "") {
+        event.preventDefault();
+    }
+});
+
 var typed = new Typed('#intro', {
     strings: ["Hello, I'm Sam Pritchard."],
     typeSpeed: 40,
