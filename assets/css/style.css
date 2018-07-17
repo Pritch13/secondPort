@@ -142,4 +142,8 @@ nav ul li a:focus {
 #copyright {
   color: #84ceeb; }
 
+  .card{
+    height: 300px;
+  }
+
 /*# sourceMappingURL=style.css.map */
