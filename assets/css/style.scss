@@ -1,198 +1,198 @@
-$deepbl: #5680e9;
-$babbl: #84ceeb;
-$lightbl: #5ab9ea;
-$lightpr: #c1c8e4;
-$vio: #8860d0;
-$accent: #fade26;
-$dark: #252934;
-$titles: 'Raleway', sans-serif;
-$text: 'Poppins', sans-serif;
+// $deepbl: #5680e9;
+// $babbl: #84ceeb;
+// $lightbl: #5ab9ea;
+// $lightpr: #c1c8e4;
+// $vio: #8860d0;
+// $accent: #fade26;
+// $dark: #252934;
+// $titles: 'Raleway', sans-serif;
+// $text: 'Poppins', sans-serif;
 
 
-html, body {
-    max-width: 100%;
-}
+// html, body {
+//     max-width: 100%;
+// }
 
-body {
-    font-family: $titles;
-    width: 100%;
-    overflow-x: hidden;
-}
+// body {
+//     font-family: $titles;
+//     width: 100%;
+//     overflow-x: hidden;
+// }
 
-.landing {
-    height: 100vh;
-    width: 100%;
-    background: $babbl;
-}
+// .landing {
+//     height: 100vh;
+//     width: 100%;
+//     background: $babbl;
+// }
 
-nav {
-    background: $dark;
-    border-bottom: solid 4px $babbl;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0; /* required */
-    z-index: 2;
-    font-family: $text;
-}
+// nav {
+//     background: $dark;
+//     border-bottom: solid 4px $babbl;
+//     position: sticky;
+//     position: -webkit-sticky;
+//     top: 0; /* required */
+//     z-index: 2;
+//     font-family: $text;
+// }
 
-#nav-mobile {
-    margin-left: 5%;
+// #nav-mobile {
+//     margin-left: 5%;
 
-}
+// }
 
-.brand-logo {
-    margin-right: 5%
-}
-
-
-#intro {
-    font-family: $titles;
-    font-size: 70px;
-    margin-top: 25%;
-    color: #fefefe;
-    font-weight: bold;
-}
-
-.typed-cursor {
-	visibility: hidden;
-}
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-
-.seeWork {
-    font-family: $text;
-    background: $accent;
-    &:hover {
-        background: $babbl;
-    }
-    &:focus {
-        background: $accent;
-    }
-}
-
-nav ul li a:focus {
-    color: $accent;
-  }
+// .brand-logo {
+//     margin-right: 5%
+// }
 
 
+// #intro {
+//     font-family: $titles;
+//     font-size: 70px;
+//     margin-top: 25%;
+//     color: #fefefe;
+//     font-weight: bold;
+// }
 
+// .typed-cursor {
+// 	visibility: hidden;
+// }
 
-#portTitle {
-    margin-top: 119px;
-    font-size: 50px;
-    font-family: $titles;
-    font-weight: bold;
-}
+// #particles-js {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//   }
 
-#border {
-    border-bottom: solid 3px $babbl;
-}
+// .seeWork {
+//     font-family: $text;
+//     background: $accent;
+//     &:hover {
+//         background: $babbl;
+//     }
+//     &:focus {
+//         background: $accent;
+//     }
+// }
 
-#samPic {
-    width: 195px;
-    border: 4px solid $babbl;
-    border-radius: 150px;
-}
-
-.aboutImg {
-    margin-top: 50px;
-}
-
-#about {
-    min-height: 100vh;
-    #aboutPara {
-        font-family: $text;
-        line-height: 24pt;
-        font-size: 14pt;
-        width: 65%;
-        margin: 0 auto;
-        margin-top: 45px;
-    }
-    #abTitle {
-        font-size: 50px;
-        font-family: $titles;
-        margin-top: 119px;
-        font-weight: bold;
-    }
-}
+// nav ul li a:focus {
+//     color: $accent;
+//   }
 
 
 
-#portfolio {
-    background: #f5f5f5;
-}
 
-#contact {
-    min-height: 100vh;
-    background: #252934;
-    overflow-y: hidden;
-    #contactTitle {
-        color: white;
-    }
-    #formsubmit {
-        border: white solid 2px;
-    }
-    #name {
-        color: white;
-    }
-    #email {
-        color: white;
-    }
-    #textarea2 {
-        color: white;
-    }
-}
+// #portTitle {
+//     margin-top: 119px;
+//     font-size: 50px;
+//     font-family: $titles;
+//     font-weight: bold;
+// }
 
-#contactTitle {
-    margin-top: 117px;
-    font-size: 50px;
-    font-family: $titles;
-    font-weight: bold;
-}
+// #border {
+//     border-bottom: solid 3px $babbl;
+// }
 
-#borderPort {
-    border-bottom: solid 3px $babbl;
-}
+// #samPic {
+//     width: 195px;
+//     border: 4px solid $babbl;
+//     border-radius: 150px;
+// }
 
-#borderRPort {
-    border-bottom: solid 3px $babbl;
-}
+// .aboutImg {
+//     margin-top: 50px;
+// }
 
-.social {
-    color: white;
-    margin: 22px;
-    margin-top: 50px;
-    &:hover {
-        color: $babbl;
-    }
-}
+// #about {
+//     min-height: 100vh;
+//     #aboutPara {
+//         font-family: $text;
+//         line-height: 24pt;
+//         font-size: 14pt;
+//         width: 65%;
+//         margin: 0 auto;
+//         margin-top: 45px;
+//     }
+//     #abTitle {
+//         font-size: 50px;
+//         font-family: $titles;
+//         margin-top: 119px;
+//         font-weight: bold;
+//     }
+// }
 
-.skillSet {
-    margin-top: 3%;
-}
 
-.skills {
-    display: inline-block;
-    color: $dark;
-    font-size: 80px;
-    margin-right: 40px;
-    -webkit-transition: 0.6s ease-out;
-    -moz-transition:  0.6s ease-out;
-    transition:  0.6s ease-out;
-    &:hover {
-        color: $babbl;
-        -webkit-transform: rotateZ(360deg);
-        -moz-transform: rotateZ(360deg);
-        transform: rotateZ(360deg);
-    }
-}
 
-#copyright {
-    color: $babbl;
-}
+// #portfolio {
+//     background: #f5f5f5;
+// }
+
+// #contact {
+//     min-height: 100vh;
+//     background: #252934;
+//     overflow-y: hidden;
+//     #contactTitle {
+//         color: white;
+//     }
+//     #formsubmit {
+//         border: white solid 2px;
+//     }
+//     #name {
+//         color: white;
+//     }
+//     #email {
+//         color: white;
+//     }
+//     #textarea2 {
+//         color: white;
+//     }
+// }
+
+// #contactTitle {
+//     margin-top: 117px;
+//     font-size: 50px;
+//     font-family: $titles;
+//     font-weight: bold;
+// }
+
+// #borderPort {
+//     border-bottom: solid 3px $babbl;
+// }
+
+// #borderRPort {
+//     border-bottom: solid 3px $babbl;
+// }
+
+// .social {
+//     color: white;
+//     margin: 22px;
+//     margin-top: 50px;
+//     &:hover {
+//         color: $babbl;
+//     }
+// }
+
+// .skillSet {
+//     margin-top: 3%;
+// }
+
+// .skills {
+//     display: inline-block;
+//     color: $dark;
+//     font-size: 80px;
+//     margin-right: 40px;
+//     -webkit-transition: 0.6s ease-out;
+//     -moz-transition:  0.6s ease-out;
+//     transition:  0.6s ease-out;
+//     &:hover {
+//         color: $babbl;
+//         -webkit-transform: rotateZ(360deg);
+//         -moz-transform: rotateZ(360deg);
+//         transform: rotateZ(360deg);
+//     }
+// }
+
+// #copyright {
+//     color: $babbl;
+// }
 
 
