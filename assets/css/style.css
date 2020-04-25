@@ -6,14 +6,18 @@ body {
   width: 100%;
   overflow-x: hidden; }
 
+  .link {
+    margin-top: 40px;
+  }
+
 .landing {
   height: 100vh;
   width: 100%;
-  background: #84ceeb; }
+  background: #17182f; }
 
 nav {
   background: #252934;
-  border-bottom: solid 4px #84ceeb;
+  border-bottom: solid 4px #17182f;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -46,11 +50,11 @@ nav {
   font-family: "Poppins", sans-serif;
   background: #fade26; }
   .seeWork:hover {
-    background: #84ceeb; }
+    background: #17182f; }
   .seeWork:focus {
     background: #fade26; }
 
-nav ul li a:focus {
+nav ul li a:hover {
   color: #fade26; }
 
 #portTitle {
@@ -60,15 +64,16 @@ nav ul li a:focus {
   font-weight: bold; }
 
 #border {
-  border-bottom: solid 3px #84ceeb; }
+  border-bottom: solid 3px #17182f; }
 
 #samPic {
   width: 195px;
-  border: 4px solid #84ceeb;
+  margin-bottom: 25px;
+  border: 4px solid #17182f;
   border-radius: 150px; }
 
 .aboutImg {
-  margin-top: 50px; }
+  margin: 50px 225px; }
 
   .bbplm {
     width: 52%;
@@ -80,9 +85,9 @@ nav ul li a:focus {
     font-family: "Poppins", sans-serif;
     line-height: 24pt;
     font-size: 14pt;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
-    margin-top: 60px; }
+    }
   #about #abTitle {
     font-size: 50px;
     font-family: "Raleway", sans-serif;
@@ -114,17 +119,16 @@ nav ul li a:focus {
   font-weight: bold; }
 
 #borderPort {
-  border-bottom: solid 3px #84ceeb; }
+  border-bottom: solid 3px #17182f; }
 
 #borderRPort {
-  border-bottom: solid 3px #84ceeb; }
+  border-bottom: solid 3px #17182f; }
 
 .social {
-  color: white;
+  color: #17182f;
   margin: 22px;
   margin-top: 50px; }
-  .social:hover {
-    color: #84ceeb; }
+
 
 .skillSet {
   margin-top: 3%; }
@@ -136,11 +140,11 @@ nav ul li a:focus {
   margin-right: 40px;
 }
   .skills:hover {
-    color: #84ceeb;
+    color: #17182f;
    }
 
 #copyright {
-  color: #84ceeb; }
+  color: #17182f; }
 
   .card{
     height: 300px;

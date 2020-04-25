@@ -110,9 +110,9 @@ if (window.innerWidth > 720) {
         delay: 2
     });
 
-    sr.reveal('#seemore', {
+    sr.reveal('#about2', {
         duration: 2000,
-        origin: 'left',
+        origin: 'right',
         distance: '200px'
     });
 
